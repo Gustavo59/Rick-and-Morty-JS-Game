@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rick and Morty - Game</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Gustavo Barros">
+	<style>
+    	* {
+    	 padding: 0;
+    	 margin: 0;
+    	}
+
+    	canvas { 
+    		background: url(Imagens/inicio.jpg); 
+    		display: block;
+    		margin: 0 auto;
+    	}
+
+    	img{
+    		display: none;
+    	}
+    </style>
+</head>
+<body>
+	<p>
+		<img src="Imagens/nave.jpg" alt="Nave" id="nave">
+		<img src="Imagens/cabeca.jpg" alt="Cabeça" id="cabeca">
+		<img src="Imagens/gostei.jpg" alt="Final Bom" id="gostei">
+		<img src="Imagens/desqualificado.jpg" alt="Final Ruim" id="desqualificado">
+		<img src="Imagens/coracao.jpg" alt="Coração" id="coracao">
+	</p>
+
+	<p id='teste'></p>
+
+	<canvas id="meuCanvas" width="960" height="640"> 
+	Seu Browser não possui suporte ao canvas
+	</canvas>
+
+	<script src="rickandmorty.js"></script>
+</body>
+</html>
